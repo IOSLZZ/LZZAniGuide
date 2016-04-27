@@ -1,0 +1,23 @@
+//
+//  LZZ.pch
+//  AnimationGuideDemo
+//
+//  Created by admin on 16/1/27.
+//  Copyright © 2016年 LZZ. All rights reserved.
+//
+
+#ifndef LZZ_pch
+#define LZZ_pch
+/**
+ *  Get the screen width and height
+ */
+#define SCREEN_WIDTH ((([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortrait) || ([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortraitUpsideDown)) ? [[UIScreen mainScreen] bounds].size.width : [[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_HEIGHT ((([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortrait) || ([UIApplication sharedApplication].statusBarOrientation == UIInterfaceOrientationPortraitUpsideDown)) ? [[UIScreen mainScreen] bounds].size.height : [[UIScreen mainScreen] bounds].size.width)
+//相对iPhone6缩放
+#define KWidth_Scale    [UIScreen mainScreen].bounds.size.width/375.0f
+#define KHEIGHT_Scale    [UIScreen mainScreen].bounds.size.height/667.0f
+/**
+ *  Get RGBA Color
+ */
+#define RGBA(r, g, b, a)                    [UIColor colorWithRed:r/255.0f green:g/255.0f blue:b/255.0f alpha:a]
+#endif /* LZZ_pch */
