@@ -1,2 +1,3 @@
 # LZZAniGuide
-![image](https://github.com/YourAcountName/ProjectName/blob/master/GIFName.gif ) 
+![image](LZZAniGuide/Untitled4.gif) 
+
