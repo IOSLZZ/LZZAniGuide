@@ -1,3 +1,4 @@
 # LZZAniGuide
-![image](LZZAniGuide/Untitled4.gif) 
+![image](https://raw.githubusercontent.com/IOSLZZ/LZZAniGuide/master/Untitled4.gif) 
+
 
